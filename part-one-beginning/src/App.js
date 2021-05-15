@@ -6,12 +6,16 @@ import Four from './Four/Four';
 import FourAnotherConditionalMeth from './Four/FourAnotherConditionalMeth';
 import List from './Four/List';
 import DynamicStyle from './Five/DynamicStyles';
+import MediaQueries from './Five/MediaQueries';
+import Radium, { StyleRoot } from 'radium';
+import LifeCycleHooks from './Seven/LifeCycleHooks';
+import UseEffect from './Seven/UseEffect';
 
 function App() {
   return (
-    <div className="App">
-      <DynamicStyle/>
-    </div>
+      <div className="App">
+        <UseEffect/>
+      </div>
   );
 }
 
@@ -25,4 +29,7 @@ export default App;
 <Four/>
 <FourAnotherConditionalMeth/>
 <List/>
+<DynamicStyle/>
+<MediaQueries/>
+<LifeCycleHooks name = 'Sujeewa'/>
 */
